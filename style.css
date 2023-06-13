@@ -16,7 +16,7 @@ body {
 }
 
 img {
-  height: 370px;
+  height: 420px;
   width: 250px;
   border-radius: 10px 0 0 10px;
 }
@@ -33,8 +33,9 @@ img {
 .product-section {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 20px;
   margin-top: 25px;
+  flex-shrink: 0;
 }
 
 .first {
@@ -74,6 +75,7 @@ img {
   align-items: center;
   gap: 15px;
   color: hsl(158, 36%, 37%);
+  margin-bottom: 20px;
 }
 
 .pr-price {
